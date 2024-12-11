@@ -1,0 +1,74 @@
+body{
+    background-image: url(/Images/rackman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+#opa{
+    border-width: 10px;
+    border-style: outset;
+    text-align: center;
+    border-color: blueviolet;
+    font-family: Parkinsans;
+    font-size: larger;
+    color: blueviolet;
+    border-radius: 2px;
+}
+.box{
+    border-style:ridge;
+    border-radius: 15px;
+    border-color: blueviolet;
+    padding: 10px;
+    border-width: 10px;
+    /*text-align: center;*/
+    float: left;
+}
+/*
+#w1{
+    float: left;
+}
+
+#w2{
+    float: left;
+    clear: both;
+}*/
+
+#w3{
+    clear: both;
+    color: cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.fa-house{
+    color:rgb(67, 164, 243);
+}
+
+#fa-house::after{
+    content: " Home";
+}
+
+.pagination{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.pagination a.active {
+ background-color: aquamarine;
+}
+
+.pagiantion a:hover:not(.active){
+    background-color: red;
+}
+
+@media screen and (max-width: 600px){
+    w1,w2{
+        width: 100%;
+    }
+}
+
+

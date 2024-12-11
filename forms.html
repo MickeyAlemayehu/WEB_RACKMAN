@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styleform.css">
+    <script src="https://kit.fontawesome.com/83cae91c27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav>
+    <div class="three">
+        <button>
+         <i class="fa-solid fa-bars"></i>
+        </button>
+    <div class="navbar">
+        <a href="index.html" target="_blank">Home</a>
+        <a href="forms.html">Profile</a>
+        <a href="">Contact Us</a>
+        <a href="">Help</a>
+        
+      </div>
+    </div>
+    
+    <hr>
+</nav>
+
+    <form style="background-color: grey;">
+        <div>
+            <label for="FName" style="color: aqua;">FName:</label>
+            <input type="text" id="FName" placeholder="xxxxx" required>
+        </div>
+        <div>
+            <label for="LName">LName:</label>
+            <input type="text" id="LName" placeholder="xxxxx">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" maxlength="8" required>
+        </div>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" placeholder="example@gmail.com" required>
+        </div>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+251 900000000" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <label>Title:</label>
+            <label>Mr.</label>
+            <input type="radio" name="title">
+            <label>Mrs.</label>
+            <input type="radio" name="title">
+            <!--checkbox-->
+        </div>
+        <div>
+            <label for="payments">Payments</label>
+            <select name="payments" id="payments">
+            <option>Visa</option>
+            <option >Cash</option>
+        </div>
+    </form>
+</body>
+</html>
